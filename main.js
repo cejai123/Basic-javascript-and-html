@@ -17,3 +17,13 @@ decreaser.addEventListener("click", function() {
     counter.innerHTML = count -= 1;
 });
 
+const dateinp = document.getElementById("date")
+function time(){
+    
+    var today = new Date();
+    var date = today.getFullYear()+"-"+(today.getMonth()+1)+"-"+today.getDate();
+    dateinp.innerHTML = date;
+}
+
+window.onload = time();
+
