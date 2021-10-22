@@ -1,0 +1,1 @@
+These files were created to show basic javascript, html and css code. You can press the buttons to increase the counter as we;; as reset the code is very simple and easy to follow so i didnt include comments
