@@ -1,0 +1,71 @@
+body{
+    background-color: grey;
+}
+
+.title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title h1{
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.counter{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#count{
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+#btn1{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+#btnreset{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.circle{
+    height: 3em;
+    width: 3em;
+    background-color: grey;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    border: 0.21em solid;
+    border-color: #E67676 #F2F062 #A9E6E6 #7692E4;
+    border-radius: 50%;
+    opacity: 0.9;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin
+{
+  0% { transform: rotate(0);}  
+  100% { transform: rotate(360deg); }
+}  
+
